@@ -3,7 +3,8 @@ source 'https://rubygems.org'
 ruby File.read('.ruby-version').strip
 
 gem 'erubis'
-gem 'mysql2', '~> 0.5.2'
+# gem 'mysql2', '~> 0.5.2'
+gem 'mysql2'
 gem 'mysql2-cs-bind'
 gem 'sinatra'
 gem 'unicorn'

@@ -9,7 +9,6 @@ require 'mysql2-cs-bind'
 require 'rack/utils'
 require 'sinatra/base'
 require 'tilt/erubis'
-require 'byebug'
 
 module Isuda
   class Web < ::Sinatra::Base
@@ -27,6 +26,7 @@ module Isuda
 
     configure :development do
       require 'sinatra/reloader'
+      require 'byebug'
 
       register Sinatra::Reloader
     end

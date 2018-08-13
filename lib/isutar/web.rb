@@ -18,6 +18,7 @@ module Isutar
 
     configure :development do
       require 'sinatra/reloader'
+      require 'byebug'
 
       register Sinatra::Reloader
     end
